@@ -5,4 +5,4 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #tomcat:9.0.89-jdk8-temurin-jammy
---platform=linux/arm64,--platform=linux/amd64  mysql:8.0.34
+--platform=linux/arm64,linux/amd64  mysql:8.0.34
