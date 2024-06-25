@@ -107,13 +107,7 @@ jobs:
             fi
         
             echo "docker pull $line"
-            docker pull --platform=arm64 $line
-            docker  tag   $line  $line-arm64
-            docker rmi  $line
-            docker pull --platform=amd64 $line
-            docker  tag   $line  $line-amd64
-            docker rmi  $line
-            
+            docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
             # 如果存在架构信息 将架构信息拼到镜像名称前面
@@ -146,10 +140,9 @@ jobs:
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
             echo "docker tag $image $new_image"
-            #docker tag $image $new_image
+            docker tag $image $new_image
             echo "docker push $new_image"
-            docker manifest create  $new_image $line-arm64   $line-amd64
-            docker manifest push $new_image
+            docker push $new_image
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
