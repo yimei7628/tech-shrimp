@@ -5,4 +5,5 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #tomcat:9.0.89-jdk8-temurin-jammy
-openresty/openresty:1.25.3.1-bookworm-fat
+--platform=linux/arm64 openresty/openresty:1.25.3.1-bookworm-fat
+--platform=linux/amd64 openresty/openresty:1.25.3.1-bookworm-fat
