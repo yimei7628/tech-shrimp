@@ -8,4 +8,5 @@
 #--platform=linux/arm64 openresty/openresty:1.25.3.1-bookworm-fat
 #--platform=linux/amd64 openresty/openresty:1.25.3.1-bookworm-fat
 #minio/minio:RELEASE.2023-08-04T17-40-21Z
-openresty/openresty:1.25.3.1-4-alpine-fat
+#openresty/openresty:1.25.3.1-4-alpine-fat
+nginx:1.25.3
