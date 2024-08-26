@@ -8,7 +8,8 @@
 #--platform=linux/arm64 openresty/openresty:1.25.3.1-bookworm-fat
 #--platform=linux/amd64 openresty/openresty:1.25.3.1-bookworm-fat
 #--platform=linux/arm64 minio/minio:RELEASE.2023-08-04T17-40-21Z
---platform=linux/amd64 node:18.20.3
+#--platform=linux/amd64 node:18.20.3
 #openresty/openresty:1.25.3.1-4-alpine-fat
 #nginx:1.25.3
-postgres:16.3
+#postgres:16.3
+dockur/windows
