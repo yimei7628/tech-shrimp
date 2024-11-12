@@ -5,3 +5,4 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 docker:20.10-dind
+
