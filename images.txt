@@ -4,6 +4,4 @@
 #xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
-flashcatcloud/categraf:latest
-flashcatcloud/nightingale:latest
-victoriametrics/victoria-metrics:v1.79.12
+docker:20.10-dind
