@@ -5,4 +5,16 @@
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 docker:20.10-dind
-
+gitlab/gitlab-ce:13.12.4-ce.0
+gitlab/gitlab-ce:13.12.11-ce.0
+gitlab/gitlab-ce:14.0.12-ce.0
+gitlab/gitlab-ce:14.3.6-ce.0
+gitlab/gitlab-ce:14.9.5-ce.0
+gitlab/gitlab-ce:14.10.5-ce.0
+gitlab/gitlab-ce:15.0.5-ce.0
+gitlab/gitlab-ce:15.4.6-ce.0
+gitlab/gitlab-ce:15.11.13-ce.0
+gitlab/gitlab-ce:16.3.9-ce.0
+gitlab/gitlab-ce:16.7.10-ce.0
+gitlab/gitlab-ce:16.11.10-ce.0
+gitlab/gitlab-ce:17.3.7-ce.0
