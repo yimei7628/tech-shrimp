@@ -18,5 +18,5 @@
 #gitlab/gitlab-ce:16.7.10-ce.0
 #gitlab/gitlab-ce:16.11.10-ce.0
 #gitlab/gitlab-ce:17.3.7-ce.0
-gitlab/gitlab-ce:14.1.4-ce.0
-
+#gitlab/gitlab-ce:14.1.4-ce.0
+gitlab/gitlab-ce:14.2.4-ce.0
