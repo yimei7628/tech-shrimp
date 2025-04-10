@@ -22,5 +22,5 @@
 #gitlab/gitlab-ce:14.2.4-ce.0
 #orangehrm/orangehrm:latest
 #mariadb:10.2
-python::3.10.16-slim
+python:3.10.16-slim
 python:3.10.16
