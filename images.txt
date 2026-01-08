@@ -8,4 +8,4 @@
 #flashcatcloud/nightingale:latest
 #victoriametrics/victoria-metrics:v1.79.12
 #alpine:3.21
-docker.n8n.io/n8nio/n8n:latest
+bitnami/kafka:3.8.1
