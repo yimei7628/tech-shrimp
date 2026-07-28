@@ -9,4 +9,4 @@
 #victoriametrics/victoria-metrics:v1.79.12
 #alpine:3.21
 #bitnami/kafka:3.8.1
---platform=linux/arm64 registry-1.docker.io/bitnami/kafka:4.0
+--platform=linux/arm64 bitnami/kafka:4.0
